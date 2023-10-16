@@ -104,7 +104,7 @@
     <div class="table-container">
         <div class="content-index">
             <div class="title">
-                <h2 class="mt-3"> >2022 IU CONCERT〈The Golden Hour: Under The Orange Sun〉</h2>
+                <h2 class="mt-3">2022 IU CONCERT〈The Golden Hour: Under The Orange Sun〉</h2>
                 <p>
                     <i class="fa-solid fa-location-dot" style="color: #ffffff; margin-right: 10px"></i>
                     Jamsil Sports Complex - Seoul Olympic Stadium
