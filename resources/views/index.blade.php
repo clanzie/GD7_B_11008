@@ -134,15 +134,17 @@
                     <div>
                         <div class="col-sm-12 mb-3 mb-sm-0">
                             <div class="card">
-                                <h5 class="card-title" style="margin-bottom:5px">{{ $item->category }}</h5>
-                                <p style="opacity: 70%;">Ticket price includes tax and ticket processing fee of IDR 25,000,-.</p>
-                                <hr>
-                                <p class="card-text">
-                                    <i class="fa-solid fa-check-to-slot" style="color: #ffffff; margin-right: 10px"></i>
-                                    Available seats : {{ $item->stock}}
-                                </p>
-                                <a style="float:right" href="#" class="btn btn-outline btn-book">Select Ticket</a>
-                                <p style="color: #D6B56E; padding-top: 10px;">IDR {{ $item->price }}</p>
+                                <div class="card-body">
+                                    <h5 class="card-title" style="margin-bottom:5px">{{ $item->category }}</h5>
+                                    <p style="opacity: 70%;">Ticket price includes tax and ticket processing fee of IDR 25,000,-.</p>
+                                    <hr>
+                                    <p class="card-text">
+                                        <i class="fa-solid fa-check-to-slot" style="color: #ffffff; margin-right: 10px"></i>
+                                        Available seats : {{ $item->stock}}
+                                    </p>
+                                    <a style="float:right" href="#" class="btn btn-outline btn-book">Select Ticket</a>
+                                    <p style="color: #D6B56E; padding-top: 10px;">IDR {{ $item->price }}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
