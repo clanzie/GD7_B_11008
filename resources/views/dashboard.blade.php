@@ -93,7 +93,7 @@
                         <p>HOME</p>
                     </div>
                 </a>
-                <a href="{{ url('/') }}" class="header-option">
+                <a href="{{ url('/merchandise') }}" class="header-option">
                     <div>
                         <p>ABOUT</p>
                     </div>
@@ -105,7 +105,7 @@
                 </a>
             </div>
         </div>
-
+        
         <div class="container">
             @yield('content')
         </div>

@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::resource('/ticket', App\Http\Controllers\TicketController::class);
+
+Route::resource('/merchandise', App\Http\Controllers\MerchandiseController::class);
